@@ -21,7 +21,8 @@
                         {% if isEdit %}
                             {% form_input field=form.id %}
                         {% endif %}
-                        {% form_input field=form.name, wrapper="mb-3 col-md-12" %}
+                        {% form_input field=form.firstName, wrapper="mb-3 col-md-12" %}
+                        {% form_input field=form.lastName, wrapper="mb-3 col-md-12" %}
                         {% form_input field=form.email, wrapper="mb-3 col-md-12" %}
 
                         {% if not isEdit %}
